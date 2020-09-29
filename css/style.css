@@ -42,7 +42,7 @@ footer{
 
   .container{
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 350px 350px 350px 350px 350px 100px;
+    grid-template-rows: 350px 350px 350px 350px 350px 350px 100px;
     }
 
   .img-three{
@@ -129,3 +129,14 @@ footer{
     grid-row: 3 /span 3;
   }
 }
+
+
+
+/* Tablet layout */
+/* Four equal columns using fr*/
+/* Five rows of 350px and one of 100px*/
+@media screen and (min-width: 1000px){
+  h1{
+    text-transform: lowercase;
+    color: #00F;
+  }
